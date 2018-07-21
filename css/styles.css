@@ -1,0 +1,122 @@
+/*Navigation*/
+body {
+  overflow-x: hidden;
+}
+.navbar-custom {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  background-color: #000;
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+  outline: 0;
+}
+
+.navbar-custom,
+.navbar-brand,
+.navbar-toggle {
+  padding: 10px;
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+  outline: 0;
+}
+
+.navbar-custom a {
+  color: #fff;
+}
+
+.navbar-custom .nav li a {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+  outline: 0;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: 0;
+  background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+  outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+  color: #fff;
+}
+.menu_img {
+  padding-top: 10px;
+}
+
+.page-scroll {
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .logo > img {
+    padding-top: 10px;
+  }
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: 0;
+    letter-spacing: 1px;
+    background: 0 0;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: #000;
+  }
+  #nav-modified {
+    margin-left: 3%;
+  }
+
+  .sm-links {
+    position: absolute;
+  }
+}
+@media (max-width: 767px) {
+  .logo > img {
+    padding-top: 10px;
+  }
+  .career-btn,
+  .sm-links {
+    float: right;
+  }
+  .sm-links {
+    position: relative;
+  }
+  .text_handling {
+    padding-right: 10px;
+    padding-left: 10px; 
+  }
+}
+
+#main_img {
+	padding-top: 5%;
+}
