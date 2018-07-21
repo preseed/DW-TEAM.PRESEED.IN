@@ -99,6 +99,10 @@ body {
   .sm-links {
     position: absolute;
   }
+
+  #handle_mainlogo {
+    margin-top: 16% !important;
+  }
 }
 @media (max-width: 767px) {
   .logo > img {
@@ -115,8 +119,7 @@ body {
     padding-right: 10px;
     padding-left: 10px; 
   }
-}
-
-#main_img {
-	padding-top: 5%;
+  #handle_mainlogo {
+    margin-top: 30% !important;
+  }
 }
