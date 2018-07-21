@@ -1336,3 +1336,10 @@
 .fa-plus-square-o:before {
   content: "\f196";
 }
+
+@media all and (min-width: 320px) and (max-width: 780px) {
+  .res {
+    font-size: 1.2em;
+  }
+
+}
