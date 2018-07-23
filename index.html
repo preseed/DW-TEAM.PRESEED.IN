@@ -156,10 +156,21 @@
                                 <img src="images/linkedin.png" alt="linkedin link" style="display:inline;">
                             </a>
 						</span><br><br>
-
                          <div id="content">
                         <span style="color:#FFFFFF; text-align:left; display:block;">He lives in the world of extraordinary ideas, idealism, inspiration, simplicity, a bicycle, a backpack, some yoga and lots of action. He questions, inspires and teaches us to be who we are becoming on this journey together. He does this in his well informed, imaginative, idealistic, bold and democratic style of leadership, unique only to him.</span>
 						</div>
+                        <br>
+                        <br>
+                        <span id="know_founder" style="color: #ff005a; ">Know More</span>
+                        <br>
+                        <br>
+                        <span id="details_founder" style="  color: #FFFFFF; display:block; text-align:left;">To know more about why he founded Preseed, you may have to dig in a bit on his journey since he dropped out of Delhi University in 2007 to build his first startup in 2009 after having raised Rs. 44 Lakhs ($100,000 approx.).
+                            His <a href="https://about.me/nishchalkesarwani" target="_blank">about.me</a>, his <a href="https://www.facebook.com/nishchalkesarwani" target="_blank">facebook</a>, his <a href="https://www.instagram.com/nishchalkesarwani/" target="_blank">instagram</a> and his <a href="https://medium.com/@Nishchal" target="_blank">medium posts</a> will tell you a little more about who he is and hence, the answer to why is Preseed being built.
+                            <br>
+                            The answer in brief: He had a lot of ideas through out his post college days and he wanted to give them all some shape but not without creating and collaborating with scores of talented and inspired people on the way. These people would be the entrepreneurs for the future, hoping they all be his team members of some sort. So that with these people he could build upon his ideas and continue to live in whims.
+                            <br>
+                            The life of living in whims, art, knowledge and simplicity is what Preseed is intended to be about. It is the manifestion of what his close to ideal personal world of engagements look like. He hopes that you find harmony in it just like he does).
+                        </span>
              </div>
             
 		</div>
@@ -1093,6 +1104,12 @@
     </script>
     <script>
     $(document).ready(function() {
+       
+        $("#details_founder").hide();
+        $("#know_founder").click(function() {
+            $("#details_founder").fadeToggle("slow");
+        });
+
         $("#details").hide();
         $("#know").click(function() {
             $("#details").fadeToggle("slow");
