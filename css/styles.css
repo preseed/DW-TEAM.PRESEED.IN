@@ -22,7 +22,7 @@ body {
 .navbar-brand,
 .navbar-toggle {
   padding: 10px;
-  margin: 0;
+  margin: 0 !important;
   font-size: 16px;
   color: #fff;
 }
@@ -113,7 +113,8 @@ body {
     float: right;
   }
   .sm-links {
-    position: relative;
+    float: right;
+    position: relative !important;
   }
   .text_handling {
     padding-right: 10px;
@@ -122,4 +123,11 @@ body {
   #handle_mainlogo {
     margin-top: 30% !important;
   }
+}
+
+.sm-links {
+  padding: 10px;
+  right: 0;
+  top: 0;
+  position: absolute;
 }
