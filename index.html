@@ -324,10 +324,10 @@
 				   </div>
                     <br>
                    
-                    <span id="know" style="color: #ff005a; cursor: pointer; ">Know More</span>
+                    <span id="know_coln" style="color: #ff005a; cursor: pointer; ">Know More</span>
 					<br>
                     <br>
-                    <span class="text_handling" id="details" style="  color: #FFFFFF; display:block; text-align:left;">Also have a know more under his name and in that write - Nishchal and Colonel have known each other for 30 years. Nishchal’s mother and Colonel studied together. They have remained friends for 5 decades. Colonel brings the values of a smiling army man who knows how to solve problems with knowledge, softwares, muscle or music, all in the same breath.</span><br><br><br><br>
+                    <span class="text_handling" id="coln_details" style="  color: #FFFFFF; display:block; text-align:left;">Also have a know more under his name and in that write - Nishchal and Colonel have known each other for 30 years. Nishchal’s mother and Colonel studied together. They have remained friends for 5 decades. Colonel brings the values of a smiling army man who knows how to solve problems with knowledge, softwares, muscle or music, all in the same breath.</span><br><br><br><br>
 			    </div>		
 
 			    <div class="col-md-3">
@@ -1151,6 +1151,11 @@
         $("#know").click(function() {
             $("#details").fadeToggle("slow");
         });
+        $("#coln_details").hide();
+        $("#know_coln").click(function() {
+            $("#coln_details").fadeToggle("slow");
+        });
+
     });
     </script>
 
