@@ -1,2 +1,2 @@
-# team
+# Team
 Preseed team page
