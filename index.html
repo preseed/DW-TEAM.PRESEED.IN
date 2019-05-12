@@ -243,7 +243,15 @@
                 <div class="col-md-8" >
                         <span style="  color: #ff005a; font-size: 1.2em;">Rajeev Ranjan</span>
                         <br>
-                        <span style="  color: #FFFFFF; font-size: 1.2em;">(Head of Yoga)</span>
+                        <span style="  color: #FFFFFF; font-size: 1.2em;">(Head of <a target="_blank" href="http://health.preseed.in/">health.preseed.in</a>)</span>
+                        <br><br>
+                        <span id="rajeev_know_more" style="color: #ff005a; cursor: pointer; ">Know More</span>
+						<br><br>
+                    	<span class="text_handling" id="rajeev_ji_details" style="  color: #FFFFFF; display:block; text-align:left;">Sports was in his blood by birth and an accident pushed him to the edge of life. The only thing that would satisfy him is the answer to why he exist, not intellectual but experiential. He did his post-graduation in TQM, but his heart and soul were solving the puzzle of life. In the end utter frustration and complete hopelessness makes his Guru decent upon him and open certain doors of existence. This was his second birth and henceforth he started expressing himself and doing lot of projects. From providing cure to chronic ailment, mental health, deaddiction, core capability enhancement, establishing the missing aspect in education. Basically, discovering and implementing tools and techniques of empowerment to the mankind.</span><br><br><br><br>
+
+                        <!-- <div id="content">
+                        <span class="text_handling" style="color:#FFFFFF; text-align:left; display:block;"></span>
+						 --></div>
                         <br><br>
                 </div>
          </div>
@@ -320,7 +328,7 @@
                     <span id="know_coln" style="color: #ff005a; cursor: pointer; ">Know More</span>
 					<br>
                     <br>
-                    <span class="text_handling" id="coln_details" style="  color: #FFFFFF; display:block; text-align:left;">Also have a know more under his name and in that write - Nishchal and Colonel have known each other for 30 years. Nishchal’s mother and Colonel studied together. They have remained friends for 5 decades. Colonel brings the values of a smiling army man who knows how to solve problems with knowledge, softwares, muscle or music, all in the same breath.</span><br><br><br><br>
+                    <span class="text_handling" id="coln_details" style="color: #FFFFFF; display:block; text-align:left;">Also have a know more under his name and in that write - Nishchal and Colonel have known each other for 30 years. Nishchal’s mother and Colonel studied together. They have remained friends for 5 decades. Colonel brings the values of a smiling army man who knows how to solve problems with knowledge, softwares, muscle or music, all in the same breath.</span><br><br><br><br>
 			    </div>		
 			    
 			    <div class="col-md-3">
@@ -1148,6 +1156,11 @@
         $("#know_coln").click(function() {
             $("#coln_details").fadeToggle("slow");
         });
+        $("#rajeev_ji_details").hide();
+		$("#rajeev_know_more").click(function() {
+            $("#rajeev_ji_details").fadeToggle("slow");
+        });
+        
 
     });
     </script>
