@@ -1,6 +1,7 @@
 /*Navigation*/
 body {
   overflow-x: hidden;
+  margin: 1em !important;
 }
 .navbar-custom {
   margin-bottom: 0;
