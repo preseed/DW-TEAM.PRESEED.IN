@@ -198,3 +198,7 @@ body {
 .btn-dark{
   background-color: rgb(255, 230, 0) !important;
 }
+.btn-pink{
+background-color: rgb(253, 0, 97);
+color: white;
+}
