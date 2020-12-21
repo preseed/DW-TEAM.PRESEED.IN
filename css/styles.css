@@ -195,3 +195,6 @@ body {
 .highlight{
   background-color: rgb(250, 232, 71);
 }
+.btn-dark{
+  background-color: rgb(216, 242, 247) !important;
+}
