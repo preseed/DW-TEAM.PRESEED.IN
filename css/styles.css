@@ -248,89 +248,46 @@ background-color: rgb(253, 0, 97);
 color: white;
 }
 
-
-@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
-
-:root {
-	/* Base font size */
-	font-size: 10px;
+.header {
+  text-align: center;
+  padding: 32px;
 }
 
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
+.rowx {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.center {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 29%;
+  max-width: 45%;
+  padding: 0 4px;
 }
 
-body {
-	min-height: 100vh;
-	background-color: #fafafa;
+.column img, .column div {
+  margin-top: 8px;
+  vertical-align: middle;
+  border: 4px solid rgb(235, 193, 8);
 }
 
-.container {
-	max-width: 100rem;
-	margin: 0 auto;
-	padding: 0 2rem 2rem;
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 
-.heading {
-	font-family: "Montserrat", Arial, sans-serif;
-	font-size: 4rem;
-	font-weight: 500;
-	line-height: 1.5;
-	text-align: center;
-	padding: 3.5rem 0;
-}
-
-.heading span {
-	display: block;
-}
-
-.gallery {
-	display: flex;
-	flex-wrap: wrap;
-	/* Compensate for excess margin on outer gallery flex items */
-	margin: -1rem -1rem;
-}
-
-.gallery-item {
-	/* Minimum width of 24rem and grow to fit available space */
-	flex: 1 0 24rem;
-	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
-	margin: 1rem;
-	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
-	overflow: hidden;
-}
-
-.gallery-image {
-	display: block;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transition: transform 400ms ease-out;
-}
-
-.gallery-image:hover {
-	transform: scale(1.15);
-}
-
-/*
-
-The following rule will only run if your browser supports CSS grid.
-
-Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
-
-*/
-
-@supports (display: grid) {
-	.gallery {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(50rem, 6fr));
-		grid-gap: 5px;
-	}
-
-	.gallery,
-	.gallery-item {
-		margin: 0;
-	}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
