@@ -505,7 +505,7 @@ hr {
 .section-5 {
     @include grid;
     .team-members {
-        column-count: 1;
+        column-count: 2;
         float: left;
     }
 }
