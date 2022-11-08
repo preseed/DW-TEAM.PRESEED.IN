@@ -343,13 +343,13 @@ details > summary::-webkit-details-marker {
 }
 /*noshow team*/
 .summary12 {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.0rem;
+  font-weight: 300;
   box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.123);
-  color: rgb(255, 0, 64);
+  color: #fff;
   padding: 1.4rem;
   margin-bottom: 1rem;
-  background-color: rgba(47, 45, 45, 0.966);
+  background-color: rgb(253, 0, 97);;
   outline: none;
   border-radius: 0.25rem;
   text-align: left;
@@ -360,7 +360,7 @@ details > summary::-webkit-details-marker {
   width: 78%;
 }
 .summary12:hover {
-  color: rgb(255, 255, 255);
+  color: #ffdf1d;
 }
 .details12[open] summary ~ * {
   animation: sweep 0.5s ease-in-out;
@@ -419,9 +419,10 @@ details > summary::-webkit-details-marker {
   padding: 25px !important;
   margin: 10px;
   color: rgb(15, 14, 14);
+  color:#373737;
 }
 .crimmage {
-  background-color: rgb(22, 22, 22);
+  background-color: none;
   border-radius: 10px !important;
   padding: 25px !important;
   margin: 10px;
