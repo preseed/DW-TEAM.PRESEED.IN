@@ -360,7 +360,7 @@ details > summary::-webkit-details-marker {
   width: 78%;
 }
 .summary12:hover {
-  color: #ffdf1d;
+  color: #000;
 }
 .details12[open] summary ~ * {
   animation: sweep 0.5s ease-in-out;
