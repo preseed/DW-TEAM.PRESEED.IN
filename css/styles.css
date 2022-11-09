@@ -343,8 +343,8 @@ details > summary::-webkit-details-marker {
 }
 /*noshow team*/
 .summary12 {
-  font-size: 1.0rem;
-  font-weight: 300;
+  font-size: 1.5rem;
+  font-weight: 800;
   box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.123);
   color: #fff;
   padding: 1.4rem;
