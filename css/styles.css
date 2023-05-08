@@ -366,7 +366,24 @@ details > summary::-webkit-details-marker {
 .summary12:hover {
   color: #000;
 }
-.details12[open] summary ~ * {
+
+details > .summary12::after {
+  position: absolute;
+  content: "+";
+  left: 10%;
+  top: 1.4rem;
+  font-size:  1.67rem;
+}
+
+details[open] > .summary12::after {
+  position: absolute;
+  content: "-";
+  left: 10%;
+}
+details > .summary12::-webkit-details-marker {
+  display: none;
+}
+.details12[open] .summary12 ~ * {
   animation: sweep 0.5s ease-in-out;
 }
 @keyframes sweep {
